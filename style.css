@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body{
+    background-image: url(Images/Instagram-Background-image.PNG);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.section-1 h1 {
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    color: white;
+    font-weight: 900;
+    font-family: Math;
+}
+
+.form-content #text {
+    border-radius: 8px;
+    position: absolute;
+    top: 340px;
+    left: 550px;
+    width: 300px;
+    padding: 12px;
+    font-size: 15px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 0;
+}
+
+.form-content #password {
+    border-radius: 8px;
+    position: absolute;
+    top: 390px;
+    left: 550px;
+    width: 300px;
+    padding: 12px;
+    font-size: 15px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 0;
+}
+
+.btn-1 {
+    position: absolute;
+    top: 440px;
+    left: 550px;
+}
+
+.btn-1 a {
+    color: grey;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
+.btn-1 button {
+    border: 0px;
+    border-radius: 6px;
+    background-color: white;
+    width: 320px;
+    padding: 10px;
+}
+
+.for-pass a {
+    font-size: 18px;
+    position: absolute;
+    top: 510px;
+    left: 635px;
+    color: grey;
+}
+
+.for-pass a:hover{
+    text-decoration: underline;
+}
