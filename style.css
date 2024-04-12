@@ -60,6 +60,7 @@ body{
     color: grey;
     line-height: 25px;
     letter-spacing: 1.5px;
+    cursor: not-allowed;
 }
 
 .btn-1 button {
@@ -68,6 +69,7 @@ body{
     background-color: white;
     width: 320px;
     padding: 10px;
+    cursor: not-allowed;
 }
 
 .for-pass a {
@@ -80,4 +82,98 @@ body{
 
 .for-pass a:hover{
     text-decoration: underline;
+}
+
+.line-left {
+    width: 140px;
+    position: absolute;
+    top: 548px;
+    left: 550px;
+    border: 1px solid grey;
+}
+
+.or {
+    letter-spacing: 1px;
+    position: absolute;
+    top: 540px;
+    left: 700px;
+    color: #8f8f8f;
+}
+
+.line-right {
+    width: 140px;
+    position: absolute;
+    top: 548px;
+    left: 730px;
+    border: 1px solid grey;
+}
+
+.insta {
+    border-radius: 10px;
+    position: absolute;
+    top: 580px;
+    left: 550px;
+    border: 1px solid grey;
+    height: 100px;
+    width: 330px;
+}
+
+.insta-img img {
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.continue-insta p a {
+    color: white;
+    position: absolute;
+    top: 44px;
+    left: 85px;
+    font-size: 18px;
+    font-family: math;
+}
+
+.go p {
+    position: absolute;
+    top: 45px;
+    left: 300px;
+    font-weight: bolder;
+    color: #d3d3d3;
+}
+
+.foot-content-1 p {
+    font-size: 15px;
+    position: absolute;
+    top: 710px;
+    left: 450px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.foot-content-2 {
+    position: absolute;
+    top: 710px;
+    left: 500px;
+    bottom: 0px;
+    margin-bottom: 50px;
+}
+
+.foot-content-2 li{
+    display: inline;
+}
+
+.foot-content-2 li a {
+    margin-left: 20px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.foot-content-2 li a:hover{
+    text-decoration: underline;
+}
+
+.foot{
+    margin: 0px 0px 0px 0px;
 }
