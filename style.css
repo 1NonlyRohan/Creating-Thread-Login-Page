@@ -134,12 +134,12 @@ body{
     font-family: math;
 }
 
-.go p {
+.continue-insta span {
     position: absolute;
-    top: 45px;
-    left: 300px;
-    font-weight: bolder;
-    color: #d3d3d3;
+    top: 2px;
+    left: 210px;
+    font-weight: 900;
+    /* color: #d3d3d3; */
 }
 
 .foot-content-1 p {
@@ -172,8 +172,4 @@ body{
 
 .foot-content-2 li a:hover{
     text-decoration: underline;
-}
-
-.foot{
-    margin: 0px 0px 0px 0px;
 }
